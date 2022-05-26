@@ -1,7 +1,7 @@
 body {
     font-family: monospace, sans-serif;
     background-color: rgb(230, 234, 237);
-    color: darkslategrey;
+    color: black;
     padding: 16px;
     margin: 16px;
     font-size: 100%;
@@ -37,12 +37,13 @@ a {
 a:hover {
     color: green;
 }
-
-.current {
+.currentCourse
+{
     font-weight: bold;
-    color: rgb(249, 7, 217);
-    font-size: large;
+    font-size: large;    
+    color: blueviolet;
 }
+
 
 section#faces {
     display: flex;
