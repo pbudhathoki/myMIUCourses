@@ -1,0 +1,65 @@
+body {
+    font-family: monospace, sans-serif;
+    background-color: rgb(230, 234, 237);
+    color: darkslategrey;
+    padding: 16px;
+    margin: 16px;
+    font-size: 100%;
+    line-height: 1;
+}
+
+#heading {
+    font-family: cursive, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    background: #d9e8f5;
+    width: fit-content;
+}
+
+p {
+    font-size: 20px;
+}
+
+p::first-letter {
+    font-size: 150%;
+}
+
+
+/* Extra: Making hyperlink not underloned by default */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
+.current {
+    font-weight: bold;
+    color: rgb(249, 7, 217);
+    font-size: large;
+}
+
+section#faces {
+    display: flex;
+}
+
+section#faces>div {
+    width: 50%;
+    text-align: center;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    background-color: rgb(6, 137, 244);
+}
+
+ol span {
+    color: red;
+}
