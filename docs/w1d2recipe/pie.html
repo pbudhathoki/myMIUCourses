@@ -46,7 +46,7 @@
     <hr>
     <section>
         <!-- I used css to make the headings uppercase rather than typing uppercase letters so that if there is a need to change it in future, the needs to be done in only one place -->
-        <h1 id="upperCaseHeading"> Ingredients </h1>
+        <h1 class="upperCaseHeading"> Ingredients </h1>
         <ul>
             <li> 1 cup white sugar</li>
             <li>2 <abbr title="tablespoon">tbsp</abbr> all-purpose flour</li>
@@ -63,7 +63,7 @@
     </section>
     <hr>
     <section>
-        <h1 id="upperCaseHeading"> Directions </h1>
+        <h1 class="upperCaseHeading"> Directions </h1>
         <ol>
             <!-- I used span and css instead of <strong> in below lines just to show there are multiple ways to do this. Also, using css helps in code reuse and DRY -->
             <li>
@@ -102,33 +102,38 @@
     </section>
     <hr>
     <section>
-        <h1 id="upperCaseHeading"> User Comments </h1>
-        <div id="quotes">
+        <h1 class="upperCaseHeading"> User Comments </h1>
+        <div class="quotes">
             <p> This is a very fun recipe to follow, because Grandma makes it sweet and simple. This pie is thickened with cornstarch and flour in addition to egg yolks, and contains no milk.</p>
             <p> - Emilie S.</p>
         </div>
-        <div id="quotes">
+        <div class="quotes">
             <p> Q: What do you call an ape who loves pie?
                 <br> A: A meringue-utan.</p>
 
             <p> - Vickie K.</p>
         </div>
-        <div id="quotes">
+        <div class="quotes">
             <p> This site can really engage my interest. Follow the recipe above and make it so! This pie is number one.</p>
             <p> - Jean-Luc Piecard</p>
         </div>
     </section>
     <hr>
-    <h1 id="upperCaseHeading"> Links </h1>
+    <h1 class="upperCaseHeading"> Links </h1>
     <a href="https://www.google.com/search?q=lemon+meringue+pie+recipe&start=10" target="_blank">Search for other lemon meringue pie recipes</a>
     <p><a href="../index.html" >Home</a> </p>
 
     <section class="copyright">
-        <a href="https://validator.w3.org/check?uri=https://pbudhathoki.github.io/myMIUCourses/w1d2recipe/" target="_blank">
-            <img src="images/html_validator.png" alt="HTML Validator logo">
-        </a>
-        <a href="http://jigsaw.w3.org/css-validator/validator?uri=https://pbudhathoki.github.io/myMIUCourses/w1d2recipe/" target="_blank"> <img src="images/css_validator.png" alt="CSS Validator logo"></a>
-
+        <footer>
+            <div>
+                <a href="https://validator.w3.org/check?uri=https://pbudhathoki.github.io/myMIUCourses/w1d2recipe/pie.html" target="_blank">
+                    <img src="images/html_validator.png" alt="HTML Validator logo" />
+                </a>
+                <a href="http://jigsaw.w3.org/css-validator/validator?uri=https://pbudhathoki.github.io/myMIUCourses/w1d2recipe/css/recipe.css" target="_blank">
+                    <img src="images/css_validator.png" alt="CSS Validator logo" />
+                </a>
+            </div>
+        </footer>
         <pre>Copyright  &copy; 2012 Granny's Pies|
         A Granny's Pies Production     |
         All rights reserved            |</pre>
