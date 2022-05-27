@@ -1,0 +1,27 @@
+/*style.css for index file */
+nav ul {
+    list-style-type: none;
+}
+
+
+nav ul li.nav-item  {
+    display: inline;
+    margin-left: 15px;
+}
+
+#firstMenu{
+    margin-left: 0;
+}
+
+
+#header-nav {
+    background-color:lightblue;
+    margin-top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+body{
+    background-color: aliceblue;
+}
